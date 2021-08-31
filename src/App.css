@@ -1,10 +1,13 @@
-.App {
-  text-align: center;
+html{
+  margin: 0;
+  padding: 0;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  opacity: 0.02;
+  position: absolute;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,15 +16,12 @@
   }
 }
 
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  width: 100%;
 }
 
 .App-link {
@@ -36,3 +36,72 @@
     transform: rotate(360deg);
   }
 }
+
+.imgLogo{
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+.menuLogo{
+  padding-right: 80px;
+  padding-top: 20px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding-left: 100px;
+  width: 40vw;
+}
+
+.h1Text{
+  text-align: left;
+  font-weight: 700;
+  font-size: 80px;
+  padding-top: 100px;
+}
+
+.pText{
+  font-weight: 100;
+  padding-bottom: 60px;
+  width: 20vw;
+}
+
+#app-logo1 {
+  height: 55vmin;
+  right: 20vw;
+  top: 2vh;
+}
+
+#app-logo2 {
+  height: 30vmin;
+  right: 20vw;
+  top: 45vh;
+}
+#app-logo3 {
+  height: 30vmin;
+  right: 30vw;
+  top: 70vh;
+}
+#app-logo4 {
+  height: 40vmin;
+  right: 5vw;
+  top: 7vh;
+}
+#app-logo5 {
+  height: 15vmin;
+  right: 10vw;
+  top: 50vh;
+}
+
+#app-logo6 {
+  height: 30vmin;
+  right: 10vw;
+  top: 65vh;
+}
+
+
+
+
